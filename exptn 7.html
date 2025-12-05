@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navigation Menu Demo</title>
     <style>
-        /* --- General Page Styling --- */
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
@@ -21,52 +20,45 @@
             margin-bottom: 10px;
         }
 
-        /* --- Common Reset for Lists --- */
         ul {
-            list-style-type: none; /* Removes bullet points */
+            list-style-type: none;
             padding: 0;
             margin: 0;
         }
 
         a {
-            text-decoration: none; /* Removes underlines */
+            text-decoration: none;
             color: white;
             font-size: 14px;
         }
 
-        /* --- 1. BLOCK EXAMPLE (Blue) --- */
         .block-nav li {
-            display: block; /* Takes up full width */
+            display: block; 
             background-color: #3498db;
             padding: 10px;
-            margin-bottom: 5px; /* Spacing between bars */
+            margin-bottom: 5px;
         }
 
-        /* --- 2. INLINE EXAMPLE (Green) --- */
         .inline-nav li {
-            display: inline; /* Flows like text, width/height are ignored */
+            display: inline;
             background-color: #2ecc71;
             padding: 5px 10px;
             margin-right: 5px;
         }
 
-        /* --- 3. INLINE-BLOCK EXAMPLE (Purple) --- */
         .inline-block-nav li {
-            display: inline-block; /* Flows like text, but respects width/height/padding */
+            display: inline-block;
             background-color: #9b59b6;
             padding: 10px 15px;
             margin-right: 5px;
-            margin-bottom: 5px; /* Good practice for wrapping */
+            margin-bottom: 5px; 
         }
-
-        /* --- 4. FLOAT EXAMPLE (Orange) --- */
-        /* Float requires a "clearfix" on the parent so it doesn't collapse */
         .float-nav {
             overflow: hidden; 
         }
 
         .float-nav li {
-            float: left; /* Pushes elements to the left */
+            float: left;
             display: block;
             background-color: #e67e22;
             padding: 10px 15px;
@@ -112,4 +104,5 @@
     </ul>
 
 </body>
+
 </html>
