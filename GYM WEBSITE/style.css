@@ -1,0 +1,39 @@
+.name{
+    background-color: rgb(3, 0, 1);
+    font-size-adjust: 25PX;
+    height: 20px;
+    width: 107.5px;
+    border-right: 5px solid  #ecd60c;
+    border-top: 10px solid #ecd60c;
+    padding: 2px 68px 33px 9px;
+    margin: 5px ;
+    color: #fcfcfb;
+    
+   
+    text-align: center;
+   
+  font-family: "BBH Bartle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.fit{color:white;
+margin:-20PX 5PX 100px  ;
+height: 30px;
+margin-top: -21PX;
+width: 245px;
+border-left: 5px solid black;
+border-bottom: 15px solid black;
+background-color: rgb(236, 214, 12);}
+H2{
+    background-color: rgb(236, 214, 12);
+ margin: 5px ;
+ border: 5px solid rgb(0, 11, 15);
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+
+
+    

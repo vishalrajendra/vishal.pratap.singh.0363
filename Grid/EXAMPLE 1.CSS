@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: black;
+    font-size: 40px;
+    color: azure;
+}
+.container{
+    display: grid;
+    height: 800px;
+    width: 800px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+    gap:5px;
+}
+.Box{
+    color:rgb(249, 244, 244);
+    background-color: rgb(73, 57, 218);
+    text-align: center;
+    justify-content: center;
+}
+.Header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.Sidebar{ grid-row-start: 2;
+    grid-row-end: 4;
+
+}
+.Content1{grid-column-start: 2;
+    grid-column-end: 4;
+
+}
+.Footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+
