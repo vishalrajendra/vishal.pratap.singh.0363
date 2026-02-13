@@ -25,14 +25,11 @@ const products = [
   },
 ];
 
-// State
 let cartCount = 0;
 
-// DOM Elements
 const productsGrid = document.getElementById("products-grid");
 const cartCountElement = document.querySelector(".cart-count");
 
-// Render Products
 function renderProducts() {
   productsGrid.innerHTML = products
     .map(
@@ -56,12 +53,12 @@ function renderProducts() {
     .join("");
 }
 
-// Add to Cart Functionality
+
 window.addToCart = function (productId) {
   cartCount++;
   updateCartUI();
 
-  // Visual feedback
+  
   const btn = event.currentTarget;
   const originalText = btn.innerHTML;
 
@@ -77,7 +74,7 @@ window.addToCart = function (productId) {
 function updateCartUI() {
   cartCountElement.textContent = cartCount;
 
-  // Animate cart badge
+  
   cartCountElement.style.transform = "scale(1.2)";
   setTimeout(() => {
     cartCountElement.style.transform = "scale(1)";
@@ -88,3 +85,4 @@ function updateCartUI() {
 document.addEventListener("DOMContentLoaded", () => {
   renderProducts();
 });
+
