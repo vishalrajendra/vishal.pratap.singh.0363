@@ -1,0 +1,35 @@
+
+*{background-color: rgb(8, 145, 135);}
+.a{ display:b;
+ background-coloR: rgb(8, 145, 135);}
+
+.b{
+    display:b;
+    background-color: rgb(8, 145, 135);
+    color: white;
+    margin: left 40px right 50px top 2px bottom 0;
+    padding: 40px;
+    text-align: center;
+}
+.d{display:d;
+    background-color: rgb(8, 145, 135);
+    border:2px black solid;
+     height: 331px;
+      width:301px;
+      text-align: center;
+
+    
+}
+.c{display:c;
+text-decoration: none; }
+.f{display:f;
+    color: white;
+text-align: center; font-family:unset;
+}
+.g{display:g; text-align: center; font-display: optional;color: white;}
+.h{display:h;
+text-align: center;
+color:rgb(5, 0, 0) ;}
+
+
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>abes engineering college Enrollment <form action=""></form></title>
+</head>
+<body>
+    <CENTER><H1><I>ABES ENGINEERING COLLEGE</I></H1>
+    <p>Dhundera,Ghaziabad Uttar Pradesh 201009</p></CENTER>
+    <br>
+    <hr>
+    <CENTER><h3 >First Year Students Enrollment Form</h3></CENTER>
+    
+    <hr>
+
+    <form style="background-color: rgb(233, 246, 224);"
+        <label for="name"><b>Name:</b></label>
+        <input type="text" id="name" name="user name">
+        <br></br>
+        <label for="father's name"><b>Father's Name:</b></label>
+        <input type="text" id="father's name" name="user father name">
+        <br></br>
+        <label for="dob"><b>Date Of Birth:</b></label>
+        <input type="date" id="dob" name="userdate of birth">
+        <br></br>
+        <label for="admission no."><b>Admission No.:</b></label>
+        <input type="text" id="admission no." name="user admission no.">
+        <br></br>
+        <label><b>Branch:</b></label><br>
+        <label for="cse">CSE</label>
+        <input type="radio" id="cse" name="user branch"><br>
+        <label for="ece">ECE</label>
+        <input type="radio" id="ece" name="user branch"><br>
+        <label for="ee">EE</label>
+        <input type="radio" id="ee" name="user branch">
+        <br></br>
+        <label for="section"><b>Section:</b></label>
+        <input type="number" id="section" name="user section">
+        <br></br>
+        <label ><b>12th Subjecs:</b></label><br>
+        <label for="physics">Physics</label>
+        <input type="checkbox" id="physics" name="subject">
+        <label for="Maths">Maths</label>
+        <input type="checkbox" id="maths" name="subject">
+        <label for="chemistry">Chemistry</label>
+        <input type="checkbox" id="chemistry" name="subject">
+        <label for="cs">Computer Science</label>
+        <input type="checkbox" id="cs" name="subject">
+        <label for="English">English</label>
+        <input type="checkbox" id="English" name="subject">
+        <label for="other">Other</label>
+        <input type="checkbox" id="other" name="subject">
+        <br></br>
+        <label for="gender"><b>Gender:</b></label><br>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male"><br>
+        <label for="female">Female</label >
+        <input type="radio" name="gender" id="female"><br>
+        <LABEL for="other">Other</LABEL>
+        <input type="radio" name="gender" id="other">
+        <br></br>
+        <label for="Mobile No.:"><b>Mobile No.</b></label>
+        <input type="number" id="Mobile No." name="user Mobile No.">
+        <br></br>
+        <label for="email"><b>Email:</b></label>
+        <input type="email" id="email" name="user email">
+        <br></br>
+        <label for="photo"><b>Candidate Photo:</b></label>
+        <input type="file" id="photo" name="user photo">
+        <br></br>
+        <label for="sign"><b>Signature:</b></label>
+        <input type="file" id="photo" name="user sign">
+        <BR></BR>
+        <label for="adhaar"><b>Candidate ADHAAR:</b></label>
+        <input type="file" id="photo" name="user adhaar">
+        <hr></hr>
+        <br>
+    
+        <br></br>
+        <center><label>I have check all the details given by me</label>
+        <input type="checkbox">
+</center>
+        <center><br><input type="submit">
+    </br></center>
+        
+
+        
+    
+    </form>
+</body>
+</html>  
