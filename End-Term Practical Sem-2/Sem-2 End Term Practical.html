@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Largest Among Five Numbers</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            background-color: rgb(66, 60, 52);
+        }
+
+        input{
+            width: 200px;
+            padding: 8px;
+            margin: 5px;
+            border-radius: 10px;
+        }
+
+        #n1{
+            background-color: rgb(9, 60, 100);
+            color: white;
+        }
+        #n2{
+            background-color: rgb(9, 60, 100);
+             color: white;
+        }
+        #n3{
+            background-color: rgb(9, 60, 100);
+            color: white;
+        }
+        #n4{
+            background-color: rgb(9, 60, 100);
+             color: white;
+        }
+        #n5{
+            background-color:rgb(9, 60, 100);
+             color: white;
+        }
+
+        button{
+            padding: 10px 20px;
+            cursor: pointer;
+            border:solid black;
+             border-radius: 20px;
+             color:cornflowerblue;
+        }
+
+        #output{
+            margin-top: 20px;
+            font-size: 22px;
+            font-weight: bold;
+            color: rgb(8, 8, 8);
+        }
+
+       
+    </style>
+</head>
+<body>
+
+    <h1>Find Largest Number Among Five Numbers</h1>
+
+    <input type="number" id="n1" placeholder="Enter Number ">
+    <br>
+    <input type="number" id="n2" placeholder="Enter Number ">
+    <br>
+    <input type="number" id="n3" placeholder="Enter Number ">
+    <br>
+    <input type="number" id="n4" placeholder="Enter Number ">
+    <br>
+    <input type="number" id="n5" placeholder="Enter Number ">
+    <br>
+
+    <button onclick="findLargest()">Find Largest</button>
+
+    <div id="output"></div>
+
+    <script>
+        function findLargest() {
+            let a = Number(document.getElementById("n1").value);
+            let b = Number(document.getElementById("n2").value);
+            let c = Number(document.getElementById("n3").value);
+            let d = Number(document.getElementById("n4").value);
+            let e = Number(document.getElementById("n5").value);
+
+            let largest = Math.max(a, b, c, d, e);
+
+            document.getElementById("output").innerHTML =
+             "Largest Number = " + largest;
+        }
+    </script>
+
+</body>
+</html>
