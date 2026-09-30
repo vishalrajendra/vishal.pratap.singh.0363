@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events | ClubSphere</title><link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<nav class="navbar"><div class="nav-inner">
+  <a class="logo" href="/">ClubSphere</a>
+  <div class="nav-links"><a href="/">Home</a><a href="/events.html">Events</a><a href="/admin">Admin</a></div>
+</div></nav>
+<main class="container">
+  <div class="section-head"><div><h2>All Events</h2><p>Search and filter upcoming club activities.</p></div></div>
+  <div class="filters">
+    <input id="search" class="input" placeholder="Search event by name...">
+    <select id="category"><option>All</option><option>Technical</option><option>Cultural</option><option>Sports</option><option>Workshop</option><option>Competition</option><option>Seminar</option><option>Other</option></select>
+  </div>
+  <div id="eventsGrid" class="event-grid"></div>
+</main>
+<footer class="footer">© 2026 ClubSphere</footer>
+<script src="/js/events.js"></script>
+</body>
+</html>
